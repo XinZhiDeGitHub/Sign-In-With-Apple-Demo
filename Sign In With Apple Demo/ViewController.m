@@ -184,7 +184,7 @@
     return self.view.window;
 }
 
-// 添加苹果登录的状态通知,可根据
+// 添加苹果登录的状态通知,可根据具体需要选择放置位置
 - (void)observeAppleSignInState {
     if (@available(iOS 13.0, *)) {
         NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
